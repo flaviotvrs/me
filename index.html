@@ -134,7 +134,7 @@
 					</div>
 				</div>
 				<div class="col-lg-9">
-					<form class="row contact_form" action="#" method="post" id="contactForm" novalidate="novalidate">
+					<form class="row contact_form" action="https://flavioaugusto-site-service.herokuapp.com/message" method="post" id="contactForm" novalidate="novalidate">
 						<div class="col-md-6">
 							<div class="form-group">
 								<input type="text" class="form-control" id="name" name="name"
@@ -191,9 +191,9 @@
 						</div>
 						<p>Stay updated with our latest trends</p>
 						<div id="mc_embed_signup">
-							<form target="_blank" action="#" method="get" class="subscribe_form relative">
+							<form class="subscribe_form relative" method="post" action="https://flavioaugusto-site-service.herokuapp.com/subscription">
 								<div class="input-group d-flex flex-row">
-									<input name="EMAIL" placeholder="Enter email address"
+									<input name="email" placeholder="Enter email address"
 										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '"
 										required="" type="email">
 									<button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>
@@ -223,12 +223,10 @@
 	</footer>
 	<!--================End Footer Area =================-->
 
-	<script
-		id="mcjs">!function (c, h, i, m, p) { m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p) }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/06f2f6ccc92bf6b50ac307fa2/30c7d2ebe02307c13109d7d7e.js");</script>
-
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
 	<script src="js/popper.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/stellar.js"></script>
@@ -243,6 +241,7 @@
 	<script src="vendors/counter-up/jquery.counterup.min.js"></script>
 	<script src="js/mail-script.js"></script>
 	<script src="js/theme.js"></script>
+	<script src="js/contact.js"></script>
 </body>
 
 </html>
