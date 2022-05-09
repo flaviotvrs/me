@@ -54,26 +54,28 @@ $(document).ready(function(){
                     }
                 },
                 submitHandler: function(form) {
-                    $(form).ajaxSubmit({
-                        type:"POST",
-                        data: $(form).serialize(),
+                    $.ajax({
+                        type: "POST",
+                        data : $(form).serialize(),
+                        mimeType: "multipart/form-data",
                         url:"https://flavioaugusto-site-service.herokuapp.com/message",
+                        // url:"http://localhost:8080/message",
                         success: function() {
                             $('#contactForm :input').attr('disabled', 'disabled');
                             $('#contactForm').fadeTo( "slow", 1, function() {
                                 $(this).find(':input').attr('disabled', 'disabled');
                                 $(this).find('label').css('cursor','default');
-                                $('#success').fadeIn()
+                                $('#success').fadeIn();
                                 $('.modal').modal('hide');
                                 $('#success').modal('show');
-                            })
+                            });
                         },
                         error: function() {
                             $('#contactForm').fadeTo( "slow", 1, function() {
-                                $('#error').fadeIn()
+                                $('#error').fadeIn();
                                 $('.modal').modal('hide');
                                 $('#error').modal('show');
-                            })
+                            });
                         }
                     });
                 }
