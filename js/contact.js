@@ -58,9 +58,7 @@ $(document).ready(function(){
                         type: "POST",
                         data : $(form).serialize(),
                         mimeType: "multipart/form-data",
-                        url: "https://script.google.com/macros/s/AKfycbyO5yklUA9lNC9_FKwZ3_YJYbv5oYOiQgyOKz8ZhVxlo6JH7nHxp_Lv8ZXGxcqVD4IS/exec",
-                        // url:"https://flavioaugusto-site-service.herokuapp.com/message",
-                        // url:"http://localhost:8080/message",
+                        url: "https://script.google.com/macros/s/AKfycbwbfKZvYWR439jSkuhTljtaQ7_XKshKwVavEWuno98OoGtgX4CNAccYVJVNZmzFrIBs/exec",
                         success: function() {
                             $('#contactForm :input').attr('disabled', 'disabled');
                             $('#contactForm').fadeTo( "slow", 1, function() {

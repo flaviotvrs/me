@@ -136,6 +136,7 @@
 				</div>
 				<div class="col-lg-9">
 					<form class="row contact_form" id="contactForm" method="post" action="#" novalidate="novalidate">
+						<input type="hidden" name="endpoint" value="message">
 						<div class="col-md-6">
 							<div class="form-group">
 								<input type="text" class="form-control" id="name" name="name"
@@ -192,7 +193,8 @@
 						</div>
 						<p>Stay updated with our latest trends</p>
 						<div id="mc_embed_signup">
-							<form class="subscribe_form relative" method="post" action="https://flavioaugusto-site-service.herokuapp.com/subscription">
+							<form class="subscribe_form relative" method="post" action="https://script.google.com/macros/s/AKfycbwbfKZvYWR439jSkuhTljtaQ7_XKshKwVavEWuno98OoGtgX4CNAccYVJVNZmzFrIBs/exec">
+								<input type="hidden" name="endpoint" value="subscription">
 								<div class="input-group d-flex flex-row">
 									<input name="email" placeholder="Enter email address"
 										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '"
@@ -233,7 +235,7 @@
 						<i class="fa fa-close"></i>
 					</button>
 					<h2>Thank you</h2>
-					<p>Your message is successfully sent...</p>
+					<p>Your message was successfully sent.</p>
 				</div>
 			</div>
 		</div>
@@ -248,8 +250,8 @@
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<i class="fa fa-close"></i>
 					</button>
-					<h2>Sorry !</h2>
-					<p> Something went wrong </p>
+					<h2>Sorry!</h2>
+					<p> Something went wrong.</p>
 				</div>
 			</div>
 		</div>
