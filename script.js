@@ -1,7 +1,7 @@
 // script.js
 
 // COLOQUE SUA URL DO GOOGLE APPS SCRIPT AQUI
-const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/SUA_ID_AQUI/exec';
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbw4RDHKpSfZ8Hd69iLZz3RN9x3vn4oatkhzbYd_V50O2TM6ItxizTowWMuRr6o9Indw/exec';
 
 const contactForm = document.getElementById('contactForm');
 const submitBtn = document.getElementById('submitBtn');
