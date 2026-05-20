@@ -1,283 +1,309 @@
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
 <head>
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5903330706686120" crossorigin="anonymous"></script>
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-LR6Y3G71X5"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-	
-	  gtag('config', 'G-LR6Y3G71X5');
-	</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flávio Tavares | Staff Engineer - Portfolio & Contato</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Página pessoal e portfólio profissional de Flávio Tavares, Staff Engineer especialista em Java, arquitetura de sistemas de alta escala, DevOps e computação em nuvem.">
+    <meta name="keywords" content="Flávio Tavares, Staff Engineer, Java, Spring Boot, DevOps, Azure, Terraform, Arquiteto de Software, Belo Horizonte, CI&T, Hotmart">
+    <meta name="author" content="Flávio Tavares">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://linkedin.com/in/flaviotvrs">
 
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" href="img/favicon.png" type="image/png">
-	<title>Flavio Augusto</title>
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="vendors/linericon/style.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-	<link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
-	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
-	<link rel="stylesheet" href="vendors/animate-css/animate.css">
-	<link rel="stylesheet" href="vendors/popup/magnific-popup.css">
-	<link rel="stylesheet" href="vendors/flaticon/flaticon.css">
-	<!-- main css -->
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/responsive.css">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Flávio Tavares | Staff Engineer">
+    <meta property="og:description" content="Portfólio profissional de Flávio Tavares. Especialista em Java, DevOps (Azure, Terraform) e arquitetura de software de alta escala com mais de 10 anos de experiência.">
+    <meta property="og:image" content="img/profile-picture.png">
+    <meta property="og:url" content="https://linkedin.com/in/flaviotvrs">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Flávio Tavares | Staff Engineer">
+    <meta property="twitter:description" content="Portfólio profissional de Flávio Tavares. Especialista em Java, DevOps (Azure, Terraform) e arquitetura de software de alta escala com mais de 10 anos de experiência.">
+    <meta property="twitter:image" content="img/profile-picture.png">
+
+    <!-- Structured Data (JSON-LD) para Busca Rica do Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Flávio Tavares",
+      "jobTitle": "Staff Engineer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Hotmart"
+      },
+      "url": "https://linkedin.com/in/flaviotvrs",
+      "sameAs": [
+        "https://github.com/flaviotvrs",
+        "https://linkedin.com/in/flaviotvrs"
+      ],
+      "knowsAbout": [
+        "Software Architecture",
+        "Java Development",
+        "Spring Boot",
+        "DevOps",
+        "Cloud Infrastructure",
+        "Microsoft Azure",
+        "Terraform",
+        "Kubernetes",
+        "Microservices"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BR",
+        "addressRegion": "Minas Gerais"
+      }
+    }
+    </script>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Outfit', 'sans-serif'],
+                    },
+                    colors: {
+                        zinc: {
+                            950: '#09090b',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/css">
+        body {
+            background-color: #09090b;
+            color: #d4d4d8;
+            font-family: 'Inter', sans-serif;
+        }
+        h1, h2, h3, .font-display {
+            font-family: 'Outfit', sans-serif;
+            color: #f4f4f5;
+        }
+        .glass-card {
+            background: rgba(24, 24, 27, 0.5);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(39, 39, 42, 0.5);
+            border-radius: 1rem;
+        }
+        .input-field {
+            width: 100%;
+            background: #18181b;
+            border: 1px solid #27272a;
+            border-radius: 0.75rem;
+            padding: 0.75rem 1rem;
+            color: #f4f4f5;
+            transition: all 0.2s;
+        }
+        .input-field:focus {
+            outline: none;
+            border-color: #ea580c;
+            box-shadow: 0 0 0 2px rgba(234, 88, 12, 0.2);
+        }
+        .btn-primary {
+            background-color: #ea580c;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.75rem;
+            font-weight: 500;
+            transition: all 0.2s;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+        .btn-primary:hover {
+            background-color: #f97316;
+        }
+        .btn-primary:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+    </style>
 </head>
+<body class="antialiased">
+    <!-- Background Decor -->
+    <div class="fixed inset-0 z-[-1] overflow-hidden pointer-events-none">
+        <div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-orange-600/5 blur-[120px] rounded-full"></div>
+        <div class="absolute bottom-[10%] right-[-5%] w-[30%] h-[30%] bg-blue-600/5 blur-[120px] rounded-full"></div>
+    </div>
 
-<body>
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 bg-zinc-950/80 backdrop-blur-md border-b border-zinc-800/50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2 group">
+                <div class="w-8 h-8 bg-orange-600 rounded-lg flex items-center justify-center text-white font-bold transition-transform group-hover:rotate-12">
+                    FT
+                </div>
+                <span class="font-display font-bold text-xl tracking-tight hidden sm:inline">Flávio Tavares</span>
+            </div>
+            <div class="flex gap-8 text-sm font-medium">
+                <a href="#about" class="hover:text-orange-500 transition-colors">Sobre</a>
+                <a href="#experience" class="hover:text-orange-500 transition-colors">Experiência</a>
+                <a href="#contact" class="hover:text-orange-500 transition-colors">Contato</a>
+            </div>
+        </div>
+    </nav>
 
-	<!--================Header Menu Area =================-->
-	<header class="header_area">
-		<div class="main_menu">
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<div class="container box_1620">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<a class="navbar-brand logo_h" href="index.html">
-						<h3 style="color: white;">FLAVIO AUGUSTO</h3>
-					</a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse"
-						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-						aria-expanded="false" aria-label="Toggle navigation">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-						<ul class="nav navbar-nav menu_nav ml-auto">
-							<li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
-							<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-						</ul>
-					</div>
-				</div>
-			</nav>
-		</div>
-	</header>
-	<!--================Header Menu Area =================-->
+    <main class="max-w-7xl mx-auto px-6 py-12 md:py-20 space-y-32">
+        <!-- Hero Section -->
+        <section id="about" class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div class="space-y-8">
+                <div class="space-y-4">
+                    <span class="inline-block px-3 py-1 bg-zinc-800/50 text-zinc-400 border border-zinc-700/50 rounded-full text-xs font-bold uppercase tracking-widest">
+                        Focado em Desafios Atuais
+                    </span>
+                    <h1 class="text-5xl md:text-7xl leading-tight font-display font-bold">
+                        Construindo Experiências <span class="text-orange-600">Digitais Únicas.</span>
+                    </h1>
+                    <p class="text-lg text-zinc-400 max-w-lg leading-relaxed">
+                        Staff Engineer apaixonado por arquitetura de software e engenharia de excelência. Especialista em Java, DevOps e tecnologias modernas para cloud.
+                    </p>
+                </div>
 
-	<!--================Home Banner Area =================-->
-	<section class="home_banner_area">
-		<div class="container box_1620" id="home">
-			<div class="banner_inner d-flex align-items-center">
-				<div class="banner_content">
-					<div class="media">
-						<div class="d-flex">
-							<img src="img/IMG_1281.png" alt="">
-						</div>
-						<div class="media-body">
-							<div class="personal_text">
-								<h6>Hello Everybody, i am</h6>
-								<h3>Flavio</h3>
-								<h4>Senior Software Developer</h4>
-								<p>Graduated in Computer Science with 10+ years of experience in Software Development
-									mainly using Java, also have experience in Software Architecture and DevOps.
-									Currently living in Brazil.</p>
-								<ul class="list basic_info">
-									<li><a href="#"><i class="lnr lnr-calendar-full"></i> 28th January, 1988</a></li>
-									<li><a href="tel:+5531992314773"><i class="lnr lnr-phone-handset"></i> +55 31 99231 4773</a></li>
-									<li><a href="mailto:flaviotvrs@gmail.com"><i class="lnr lnr-envelope"></i> flaviotvrs@gmail.com</a></li>
-									<li><a href="https://www.google.com/maps/search/Belo%20Horizonte" target="_blank"><i class="lnr lnr-home"></i> Belo Horizonte</a></li>
-								</ul>
-								<ul class="list personal_social">
-									<li><a href="https://github.com/flaviotvrs" target="_blank"><i class="fa fa-github"></i></a></li>
-									<li><a href="https://linkedin.com/in/flaviotvrs" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-									<li><a href="https://instagram.com/flaviotvrs" target="_blank"><i class="fa fa-instagram"></i></a></li>
-									<li><a href="https://twitter.com/flaviotvrs" target="_blank"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="https://www.youtube.com/channel/UCPin5pEkaABnmz_i-LvDLVw" target="_blank"><i class="fa fa-youtube"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================End Home Banner Area =================-->
+                <div class="flex flex-wrap gap-4">
+                    <a href="#contact" class="btn-primary">
+                        Vamos Conversar 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+                    </a>
+                    <div class="flex items-center gap-3">
+                        <a href="https://github.com/flaviotvrs" target="_blank" class="p-3 bg-zinc-900 border border-zinc-800 rounded-xl hover:bg-zinc-800 transition-colors text-zinc-400 hover:text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                        </a>
+                        <a href="https://linkedin.com/in/flaviotvrs" target="_blank" class="p-3 bg-zinc-900 border border-zinc-800 rounded-xl hover:bg-zinc-800 transition-colors text-zinc-400 hover:text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                        </a>
+                    </div>
+                </div>
 
-	<!--================Contact Area =================-->
-	<section class="contact_area p_120">
-		<div class="container" id="contact">
-			<div class="row welcome_inner">
-				<div class="col-lg-6">
-					<div class="welcome_text">
-						<h4>Contact</h4>
-					</div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
+                    <div class="flex items-center gap-3 text-zinc-400">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-orange-500"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                        <span>flaviotvrs@gmail.com</span>
+                    </div>
+                    <div class="flex items-center gap-3 text-zinc-400">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-orange-500"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                        <span>Brasil</span>
+                    </div>
+                </div>
+            </div>
 
-				</div>
-			</div>
+            <div class="relative group">
+                <div class="aspect-square glass-card overflow-hidden relative">
+                    <img src="img/profile-picture.png" alt="Flávio Tavares" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-110 group-hover:scale-100">
+                    <div class="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent opacity-60"></div>
+                </div>
+                <div class="absolute -bottom-6 -right-6 glass-card p-6 flex flex-col gap-1 hidden md:flex">
+                    <span class="text-orange-500 font-bold text-2xl">10+</span>
+                    <span class="text-xs uppercase tracking-widest text-zinc-400 font-bold">Anos de XP</span>
+                </div>
+            </div>
+        </section>
 
-			<div class="row">
-				<div class="col-lg-3">
-					<div class="contact_info">
-						<div class="info_item">
-							<i class="lnr lnr-home"></i>
-							<h6><a href="https://www.google.com/maps/search/Minas%20Gerais" target="_blank">Minas Gerais, Brazil</a></h6>
-							<p>Belo Horizonte</p>
-						</div>
-						<div class="info_item">
-							<i class="lnr lnr-phone-handset"></i>
-							<h6><a href="tel:+5531992314773">+55 31 99231 4773</a></h6>
-							<p>Mon to Fri 9am to 6 pm</p>
-						</div>
-						<div class="info_item">
-							<i class="lnr lnr-envelope"></i>
-							<h6><a href="mailto:flaviotvrs@gmail.com">flaviotvrs@gmail.com</a></h6>
-							<p>Send me your query anytime!</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-9">
-					<form class="row contact_form" id="contactForm" method="post" action="#" novalidate="novalidate">
-						<input type="hidden" name="endpoint" value="message">
-						<div class="col-md-6">
-							<div class="form-group">
-								<input type="text" class="form-control" id="name" name="name"
-									placeholder="Enter your name">
-							</div>
-							<div class="form-group">
-								<input type="email" class="form-control" id="email" name="email"
-									placeholder="Enter email address">
-							</div>
-							<div class="form-group">
-								<input type="text" class="form-control" id="subject" name="subject"
-									placeholder="Enter Subject">
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="form-group">
-								<textarea class="form-control" name="message" id="message" rows="1"
-									placeholder="Enter Message"></textarea>
-							</div>
-						</div>
-						<div class="col-md-12 text-right">
-							<button type="submit" value="submit" class="btn submit_btn">Send Message</button>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================Contact Area =================-->
+        <!-- Professional Background -->
+        <section id="experience" class="space-y-12">
+            <div class="text-center space-y-4">
+                <h2 class="text-4xl md:text-5xl font-display font-bold">Minha Trajetória</h2>
+                <p class="text-zinc-400 max-w-2xl mx-auto">
+                    Uma breve visão geral da minha jornada profissional e as empresas por onde passei.
+                </p>
+            </div>
 
-	<!--================Footer Area =================-->
-	<footer class="footer_area p_120">
-		<div class="container">
-			<div class="row footer_inner">
-				<div class="col-lg-5 col-sm-6">
-					<aside class="f_widget ab_widget">
-						<div class="f_title">
-							<h3>About Me</h3>
-						</div>
-						<p>Do you want to be even more successful? Learn to love learning and growth. The more effort
-							you put into improving your skills, the more you grow from them.</p>
-						<p>&copy;
-							<script>document.write(new Date().getFullYear());</script> <a
-								href="http://flavioaugusto.xyz">flavioaugusto.xyz</a> | All rights reserved
-						</p>
-						<p>This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
-								href="https://colorlib.com" target="_blank">Colorlib</a></p>
-					</aside>
-				</div>
-				<div class="col-lg-5 col-sm-6">
-					<aside class="f_widget news_widget">
-						<div class="f_title">
-							<h3>Newsletter</h3>
-						</div>
-						<p>Stay updated with our latest trends</p>
-						<div id="mc_embed_signup">
-							<form class="subscribe_form relative" method="post" action="https://script.google.com/macros/s/AKfycbwbfKZvYWR439jSkuhTljtaQ7_XKshKwVavEWuno98OoGtgX4CNAccYVJVNZmzFrIBs/exec">
-								<input type="hidden" name="endpoint" value="subscription">
-								<div class="input-group d-flex flex-row">
-									<input name="email" placeholder="Enter email address"
-										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '"
-										required="" type="email">
-									<button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>
-								</div>
-								<div class="mt-10 info"></div>
-							</form>
-						</div>
-					</aside>
-				</div>
-				<div class="col-lg-2">
-					<aside class="f_widget social_widget">
-						<div class="f_title">
-							<h3>Follow Me</h3>
-						</div>
-						<p>Let us be social</p>
-						<ul class="list">
-							<li><a href="https://github.com/flaviotvrs" target="_blank"><i class="fa fa-github"></i></a></li>
-							<li><a href="https://linkedin.com/in/flaviotvrs" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-							<li><a href="https://instagram.com/flaviotvrs" target="_blank"><i class="fa fa-instagram"></i></a></li>
-							<li><a href="https://twitter.com/flaviotvrs" target="_blank"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="https://www.youtube.com/channel/UCPin5pEkaABnmz_i-LvDLVw" target="_blank"><i class="fa fa-youtube"></i></a></li>
-						</ul>
-					</aside>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!--================End Footer Area =================-->
+            <div class="grid grid-cols-1 gap-8 max-w-3xl mx-auto">
+                <div class="glass-card p-6 md:p-8 hover:border-orange-500/30 transition-colors group">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
+                        <div>
+                            <h3 class="text-xl group-hover:text-orange-500 transition-colors font-semibold">Staff Engineer</h3>
+                            <p class="text-zinc-500 flex items-center gap-2">Hotmart</p>
+                        </div>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-xs font-medium text-zinc-400">2023 - Presente</span>
+                    </div>
+                    <p class="text-zinc-400 leading-relaxed italic">"Atuação estratégica de liderança técnica focando em excelência arquitetural e soluções de alta disponibilidade para produtos digitais globais."</p>
+                </div>
 
-	<!--================Contact Success and Error message Area =================-->
-	<div id="success" class="modal modal-message fade" role="dialog">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<i class="fa fa-close"></i>
-					</button>
-					<h2>Thank you</h2>
-					<p>Your message was successfully sent.</p>
-				</div>
-			</div>
-		</div>
-	</div>
+                <div class="glass-card p-6 md:p-8 hover:border-orange-500/30 transition-colors group">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
+                        <div>
+                            <h3 class="text-xl group-hover:text-orange-500 transition-colors font-semibold">DevOps Engineer</h3>
+                            <p class="text-zinc-500 flex items-center gap-2">CI&T</p>
+                        </div>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-xs font-medium text-zinc-400">2020 - 2023</span>
+                    </div>
+                    <p class="text-zinc-400 leading-relaxed italic">"Especialista em infraestrutura cloud (Azure) e automação via Terraform, otimizando o ciclo de vida de desenvolvimento e entrega de software."</p>
+                </div>
 
-	<!-- Modals error -->
+                <div class="glass-card p-6 md:p-8 hover:border-orange-500/30 transition-colors group">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
+                        <div>
+                            <h3 class="text-xl group-hover:text-orange-500 transition-colors font-semibold">Software Architect & Senior Java Developer</h3>
+                            <p class="text-zinc-500 flex items-center gap-2">CI&T</p>
+                        </div>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-xs font-medium text-zinc-400">2018 - 2020</span>
+                    </div>
+                    <p class="text-zinc-400 leading-relaxed italic">"Liderança técnica na modernização de sistemas bancários críticos, migrando arquiteturas legadas para microsserviços e APIs performáticas."</p>
+                </div>
+            </div>
+        </section>
 
-	<div id="error" class="modal modal-message fade" role="dialog">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<i class="fa fa-close"></i>
-					</button>
-					<h2>Sorry!</h2>
-					<p> Something went wrong.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--================End Contact Success and Error message Area =================-->
+        <!-- Contact Section -->
+        <section id="contact" class="space-y-12">
+            <div class="text-center space-y-4">
+                <h2 class="text-4xl md:text-5xl font-display font-bold">Entre em Contato</h2>
+                <p class="text-zinc-400 max-w-2xl mx-auto">
+                    Tem um projeto em mente ou quer apenas dizer oi? Preencha o formulário abaixo.
+                </p>
+            </div>
 
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/jquery.validate.min.js"></script>
-	<script src="js/popper.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/stellar.js"></script>
-	<script src="vendors/lightbox/simpleLightbox.min.js"></script>
-	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
-	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-	<script src="vendors/isotope/isotope.pkgd.min.js"></script>
-	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-	<script src="vendors/popup/jquery.magnific-popup.min.js"></script>
-	<script src="js/jquery.ajaxchimp.min.js"></script>
-	<script src="vendors/counter-up/jquery.waypoints.min.js"></script>
-	<script src="vendors/counter-up/jquery.counterup.min.js"></script>
-	<script src="js/mail-script.js"></script>
-	<script src="js/theme.js"></script>
-	<script src="js/contact.js"></script>
+            <div class="glass-card p-8 md:p-10 w-full max-w-2xl mx-auto">
+                <form id="contactForm" class="space-y-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="space-y-2">
+                            <label class="text-sm font-medium text-zinc-400 ml-1">Nome Completo</label>
+                            <input type="text" name="name" required placeholder="Seu nome" class="input-field">
+                        </div>
+                        <div class="space-y-2">
+                            <label class="text-sm font-medium text-zinc-400 ml-1">E-mail</label>
+                            <input type="email" name="email" required placeholder="seu@email.com" class="input-field">
+                        </div>
+                    </div>
+                    <div class="space-y-2">
+                        <label class="text-sm font-medium text-zinc-400 ml-1">Assunto</label>
+                        <input type="text" name="subject" placeholder="Sobre o que vamos conversar?" class="input-field">
+                    </div>
+                    <div class="space-y-2">
+                        <label class="text-sm font-medium text-zinc-400 ml-1">Mensagem</label>
+                        <textarea name="message" rows="5" required placeholder="Escreva sua mensagem aqui..." class="input-field"></textarea>
+                    </div>
+                    <button type="submit" id="submitBtn" class="btn-primary w-full">
+                        Enviar Mensagem
+                    </button>
+                    <p id="formStatus" class="text-center text-sm hidden"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-zinc-900 bg-zinc-950 py-12">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-zinc-500">
+            <span>© 2026 Flávio Tavares. Todos os direitos reservados.</span>
+            <div class="flex gap-6">
+                <a href="https://github.com/flaviotvrs" target="_blank" class="hover:text-white transition-colors">GitHub</a>
+                <a href="https://linkedin.com/in/flaviotvrs" target="_blank" class="hover:text-white transition-colors">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-
 </html>
